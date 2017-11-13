@@ -1961,6 +1961,7 @@ _:-ms-fullscreen, :root .glich-button:after {
   margin: 0 0 15px;
   line-height: 1.75;
   position: relative;
+  font-family: monospace;
 }
 
 .contact-email {

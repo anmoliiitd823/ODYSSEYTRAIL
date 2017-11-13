@@ -207,14 +207,21 @@ var $ = jQuery;
 				loop:true,
     			margin:10,
     			autoplay:true,
-    			autoplayTimeout:1000,
-    			autoplayHoverPause:true,
+    			smartSpeed: 1000,
+    			autoplayTimeout:1,
 				itemsDesktop : [1200,3],
 				itemsDesktopSmall: [991,3],
 				itemsTablet: [767,2],
 				itemsMobile: [500,1]
 			});
 		}
+	// 	$(function(){
+	// $(".business-about-carousell").owlCarousel({
+	// 	items: ,
+	// 	autoplay: true,
+	// 	smartSpeed: 1000,
+	// 	loop: true
+	// }); 
 
 		if ( $(".business-team-carousell").length ) {
 			$(".business-team-carousell").owlCarousel({
