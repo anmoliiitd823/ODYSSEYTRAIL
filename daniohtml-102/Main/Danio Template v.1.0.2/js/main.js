@@ -193,6 +193,8 @@ var $ = jQuery;
 		if ( $(".portfolio").length ) {
 			$(".portfolio").owlCarousel({
 				items : 3,
+				autoplay:true,
+				autoplayHoverPause:true,
 				itemsDesktop : [1200,3],
 				itemsDesktopSmall: [1100,2],
 				itemsTablet: [650,1]
@@ -202,6 +204,11 @@ var $ = jQuery;
 		if ( $(".business-about-carousell").length ) {
 			$(".business-about-carousell").owlCarousel({
 				items : 3,
+				loop:true,
+    			margin:10,
+    			autoplay:true,
+    			autoplayTimeout:1000,
+    			autoplayHoverPause:true,
 				itemsDesktop : [1200,3],
 				itemsDesktopSmall: [991,3],
 				itemsTablet: [767,2],
@@ -212,6 +219,8 @@ var $ = jQuery;
 		if ( $(".business-team-carousell").length ) {
 			$(".business-team-carousell").owlCarousel({
 				items : 3,
+				autoplay:true,
+				autoplayHoverPause:true,
 				itemsDesktop : [1200,3],
 				itemsDesktopSmall: [1100,2],
 				itemsTablet: [767,2],
