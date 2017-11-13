@@ -4,8 +4,8 @@ var map;
 var map_lon = $(".map-canvas").attr("data-map-lon");  // Longitude
 var map_lat = $(".map-canvas").attr("data-map-lat");  // Latitude
 
-if(map_lon==undefined){map_lon = 40.707476}
-if(map_lat==undefined){map_lat = -74.013670}
+if(map_lon==undefined){map_lon = 28.545787}
+if(map_lat==undefined){map_lat = 77.263938}
 
 function initialize() {	
 
@@ -13,7 +13,7 @@ function initialize() {
 	var myLatlng = new google.maps.LatLng(map_lon, map_lat);
 
 	var mapOptions = {
-		zoom: 8,
+		zoom: 15,
 		draggable: false,
 		disableDefaultUI: true,
 		disableDoubleClickZoom: true,
