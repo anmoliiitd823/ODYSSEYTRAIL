@@ -1921,7 +1921,7 @@ _:-ms-fullscreen, :root .glich-button:after {
 }
 
 .dashed {
-  border-bottom: 1px dashed #0072bc;
+      font-family: monospace;
   display: inline;
   cursor: pointer;
   text-shadow: 0px 0px 0 #f33;
