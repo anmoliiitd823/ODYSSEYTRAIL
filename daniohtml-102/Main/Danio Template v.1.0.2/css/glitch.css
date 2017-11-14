@@ -6,6 +6,11 @@
 	overflow: hidden;
 	font-family: 'Oswald', sans-serif;
 }
+.timer{
+	font-family: 'Oswald', sans-serif;
+	font-size: 70px;
+	text-shadow: 2px 2px #fecb30;
+}
 .glitch-figure {
 	display: inline-block;
 	display: block;
