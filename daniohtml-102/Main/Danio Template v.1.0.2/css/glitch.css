@@ -9,6 +9,7 @@
 .timer{
 	font-family: 'Oswald', sans-serif;
 	font-size: 70px;
+	 font-size: 6.5vw;
 	text-shadow: 2px 2px #fecb30;
 }
 .glitch-figure {
@@ -27,7 +28,8 @@
 }
 @media(max-width:767px) {
 	.glitch-figure {
-		top: 21px;
+		height: auto;
+		top: -80px;
 		left: 0px;
 	}
 }
